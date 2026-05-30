@@ -7,9 +7,31 @@ First Assignment- Add a README.md file to your project, make commit and push to 
 
 ## Second Assignment
 
-Second Assignment- A repeated CI/CD, like the one you did earlier, and in the README, should contain various networking cmds we discussed. Example: How to check Hostname, all network, active connections.
-Answer: Various Networking Cmds are-
-hostname       - Check the Server name
-ifconfig       - To see all Network Interface or Connections
-arp -a         - See Active Connections
-ip route show  - Check your Default Gateway (shows the routing table)
+### CI/CD Pipeline with Networking Commands
+
+A repeated CI/CD setup with essential networking commands for system administration and troubleshooting.
+
+#### Networking Commands Reference
+
+| Command | Description |
+|---------|-------------|
+| `hostname` | Check the Server name |
+| `ifconfig` | Display all Network Interfaces or Connections |
+| `arp -a` | View Active Connections |
+| `ip route show` | Check your Default Gateway (shows the routing table) |
+
+#### Quick Command Guide
+
+```bash
+# Check your server hostname
+hostname
+
+# View all network interfaces and their configuration
+ifconfig
+
+# Display ARP table for active connections
+arp -a
+
+# Show routing table and default gateway
+ip route show
+```
